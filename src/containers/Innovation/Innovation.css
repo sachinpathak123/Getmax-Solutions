@@ -1,0 +1,76 @@
+.Innovation-div{
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Inno-img{
+    margin-bottom: 50px;
+}
+
+.Inno-tag{
+    color: #6020BD;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.Inno-title{
+    color: #263238;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; 
+    margin-bottom: 40px;
+}
+
+.Inno-desc{
+    color: #263238;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 800px;
+}
+
+
+
+@media screen and (max-width:1050px){
+    .Inno-img{
+     
+        width: 32vw;
+    }
+    .Inno-title{
+        font-size: 7vw;
+        
+      
+    }
+    .Inno-tag{
+        
+        line-height: 6vw;
+        font-size: 5vw;
+        width: 90vw;
+    }
+    .Inno-desc{
+        width: 90vw;
+        line-height: 6vw;
+        font-size: 4vw;
+    }
+    
+}

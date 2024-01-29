@@ -1,0 +1,65 @@
+.sect{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem; 
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.first-sect{
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  margin: 1rem 0 1rem 3.7rem;
+  margin-left: 4.5rem;
+  margin-right: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first-view{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.first-heading{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-left: 0.5rem;
+}
+.head-part{
+    color: #6020BD;
+    font-weight: 600;
+}
+.first-descrip{
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: black;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    display:flex  
+    /* will check this once */
+}
+.btn{
+    background-color:rgb(96,32,189);
+    padding: 1rem 0.5rem 1rem 1.5rem;
+    margin-left: 0.6rem;
+    width: 35%;
+    text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
+    display:flex;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+.second-sect{
+    padding: 4rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-img{
+    width: 100%;
+    height: 100%;
+}
