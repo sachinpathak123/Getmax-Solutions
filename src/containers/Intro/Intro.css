@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    font-family: 'Inter' sans-serif;
 }
 .main{
     display: flex;
@@ -17,6 +18,10 @@ h1,h2{
     color: #191919;
     font-weight: 1000;
     font-size: 2rem;
+    font-family: 'Inter' sans-serif;
+}
+h3{
+    font-family: 'Inter' sans-serif;
 }
 .services{
     display: flex;
