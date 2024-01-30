@@ -33,13 +33,13 @@ function Compare() {
             <div class='heading-align'>
             <p class='heading-description'>IT/ITes</p>
             <p class='heading-description'>Customer Support</p>
-            <p class='heading-description'>Medical Billing Companies</p>
+            <p class='heading-description'>Medical Billing</p>
             </div>
           </div>
       </div>
       <div className='container-card'>
       <div class='sect-first'>
-            <div class='heading-first'>
+            <div class='heading-first' id='head-align'>
              DIGITAL SOLUTIONS
             </div>
             <div class='heading-align'>
@@ -52,8 +52,8 @@ function Compare() {
       </div>
       <div class='container-card'>
       <div class='sect-first'>
-            <div class='heading-first'>
-            Business Consulting
+            <div class='heading-first' id='head-align'>
+           BUSINESS CONSULTING
             </div>
             <div class='heading-align'>
             <p class='heading-description'>Product Based Companies</p>
@@ -63,8 +63,8 @@ function Compare() {
       </div>
       <div className='container-card'>
       <div class='sect-first'>
-            <div class='heading-first'>
-             Training Solutions
+            <div class='heading-first' id='head-align'>
+             TRAINING SOLUTIONS
             </div>
             <div class='heading-align'>
             <p class='heading-description'>Corporate Training</p>
