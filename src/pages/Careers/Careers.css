@@ -82,7 +82,7 @@
     font-weight: 700;
     line-height: 48px; 
     letter-spacing: 0.5px;
-    width : 500px
+    width : 500px;
 }
 .careers-hero-desc{
     color: #000;
@@ -99,7 +99,7 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    gap : 70px;
+    gap : 0px;
     padding-top: 35px;
 }
 .carees-main-left{

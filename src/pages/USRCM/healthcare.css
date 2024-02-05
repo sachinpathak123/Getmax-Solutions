@@ -551,6 +551,9 @@ color: #FFFFFF;
 
 
 }
+ul{
+    list-style: none;
+}
 
 
 /* 7 day Free Trial */
